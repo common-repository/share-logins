@@ -1,0 +1,144 @@
+.cx-upgrade-notice article {
+	margin:0 auto;
+	height:auto;
+	position:relative;
+}
+.cx-upgrade-notice table { 
+	border-collapse:collapse; 
+	table-layout:fixed; 
+	width:100%; 
+}
+.cx-upgrade-notice th { 
+	background:#F5F5F5; 
+	display:none; 
+}
+.cx-upgrade-notice td, .cx-upgrade-notice th {
+	height:53px
+}
+.cx-upgrade-notice td, .cx-upgrade-notice th { 
+	border:1px solid #DDD; 
+	padding:0 10px; 
+	empty-cells:show; 
+}
+.cx-upgrade-notice td, .cx-upgrade-notice th {
+	text-align:left;
+}
+.cx-upgrade-notice td+td, .cx-upgrade-notice th+th {
+	text-align:center;
+}
+.cx-upgrade-notice td.cx-upgrade-notice {
+	display:table-cell;
+}
+.cx-upgrade-notice .bg-purple {
+	background: #0054a6;
+	color: #fff;
+	text-transform: uppercase;
+}
+.cx-upgrade-notice .bg-yellow {
+	background: #fcac35;
+	color: #fff;
+	text-transform: uppercase;
+}
+.cx-upgrade-notice .bg-grea {
+	background: #11cdc5;
+	color: #fff;
+	text-transform: uppercase;
+}
+.cx-upgrade-notice .bg-green {
+	background: green;
+	color: #fff;
+	text-transform: uppercase;
+}
+.cx-upgrade-notice .sep {
+	background:#fff;
+	font-weight:bold;
+}
+.cx-upgrade-notice .sep:hover {
+	background:#f6f6f6;
+	font-weight:bold;
+}
+.cx-upgrade-notice .txt-l { font-size:28px; font-weight:bold; }
+.cx-upgrade-notice .txt-top { position:relative; top:-9px; left:-2px; }
+.cx-upgrade-notice .tick { font-size:18px; color:#2CA01C; }
+.cx-upgrade-notice .hide {
+	border:0;
+	background:none;
+}
+
+@media (min-width: 640px) {
+	.cx-upgrade-notice td,.cx-upgrade-notice th {
+		display:table-cell !important;
+	}
+	.cx-upgrade-notice td,.cx-upgrade-notice th {
+		width: 330px;
+
+	}
+	.cx-upgrade-notice td+td, .cx-upgrade-notice th+th {
+		width: auto;
+	}
+}
+
+.cx-pricing-button {
+	border: 2px solid transparent;
+	color: rgb(255, 255, 255);
+	font-size: 12px;
+	text-decoration: none;
+	display: inline-block;
+	width: 100%;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 3;
+	/*border-radius: 50px;*/
+	transition: .4s;
+}
+
+.cx-pricing-button.bg-purple {
+	background: #0054a6;
+}
+.cx-pricing-button.bg-purple:hover {
+	color: #0054a6;
+	background: #fff;
+	border: 2px solid #0054a6;
+}
+.cx-pricing-button.bg-yellow {
+	background: #fcac35;
+}
+.cx-pricing-button.bg-yellow:hover {
+	background: #fff;
+	color: #fcac35;
+	border: 2px solid #fcac35;
+}
+.cx-pricing-button.bg-grea {
+	background: #11cdc5;
+}
+.cx-pricing-button.bg-grea:hover {
+	background: #fff;
+	color: #11cdc5;
+	border: 2px solid #11cdc5;
+}
+.cx-pricing-button.bg-green {
+	background: green;
+}
+.cx-pricing-button.bg-green:hover {
+	background: #fff;
+	color: green;
+	border: 2px solid green;
+}
+.cx-upgrade-notice .dashicons-yes {
+	color: green;
+	font-size: 24px;
+}
+.cx-upgrade-notice .dashicons-no-alt {
+	color: red;
+	font-size: 24px;
+}
+.cx-upgrade-notice tr:hover {
+	background:#f6f6f6;
+}
+.cx-upgrade-notice tr:last-child:hover {
+	background: none;
+}
+.cx-upgrade-notice .dashicons-editor-help {
+	color: #39779e;
+	cursor: pointer;
+}

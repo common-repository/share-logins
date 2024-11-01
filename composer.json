@@ -1,0 +1,18 @@
+{
+    "name": "codexpert/Image_Sizes",
+    "authors": [
+        {
+            "name": "codexpert",
+            "email": "hello@codexpert.io"
+        }
+    ],
+    "require": {
+        "codexpert/product": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "codexpert\\Image_Sizes\\" : "src/"
+        },
+        "files": [ "functions/helpers.php" ]
+    }
+}
